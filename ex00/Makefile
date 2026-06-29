@@ -1,4 +1,4 @@
-NAME = easyfind
+NAME = btc
 
 COMP = c++
 
