@@ -4,6 +4,9 @@
 #include <iostream>
 #include <stack>
 #include <fstream>
+#include <sstream>
+#include <stdexcept>
+#include <cstdlib>
 
 class RPN
 {
@@ -12,7 +15,7 @@ class RPN
 		
 		bool _isOperator(const std::string	&token) const;
 		bool _isNumber(const std::string &token) const;
-		bool _applyOperator(const std::string &op);
+		void _applyOperator(const std::string &op);
 
 	public:
 		RPN();
